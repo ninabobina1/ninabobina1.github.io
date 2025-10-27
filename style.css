@@ -1,0 +1,72 @@
+
+a[href]:link {
+    color: #00509d ;
+  }
+  a[href]:visited {
+    color: #28666e;
+  }
+  
+  html
+  {
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #bbb;*/
+    font-weight: 300;
+    height: 100%;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  }
+  
+  body
+  {
+    font-size: 10pt;
+    background-color: #fff;
+    margin:0px auto;
+    text-align: justify;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  }
+  
+  @media screen 
+  {
+    html
+    {
+      /*background-image: url(images/background.gif);*/
+      background-color: #c6f3e4;
+    }
+    body
+    {
+      width: 915px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+      min-height: 100%;
+      border-left: 5px solid #282828;
+      border-right: 5px solid #394148;
+    }
+  }
+  
+  
+  .caption,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    color: #000000 ;
+    line-height: 1.05em;
+  }
+  
+  a:hover
+  {
+    color: #000000;
+    text-decoration: underline;
+  }
+  
+  strong.warning {
+    color: #28666e;
+  }
+
