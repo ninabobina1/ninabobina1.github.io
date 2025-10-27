@@ -37,6 +37,7 @@ a[href]:link {
     body
     {
       width: 915px;
+      height: 100%;
       padding-top: 10px;
       padding-bottom: 10px;
       padding-right: 10px;
