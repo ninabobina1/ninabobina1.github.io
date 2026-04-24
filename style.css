@@ -12,7 +12,7 @@ a[href]:link {
     padding: 0px;
     /*background-color: #bbb;*/
     font-weight: 300;
-    height: 100%;
+   min-height: 100%;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
@@ -24,8 +24,7 @@ a[href]:link {
     background-color: #fff;
     margin:0px auto;
     text-align: justify;
-    height: 1024px;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    min-height: 100%;
   }
   
   @media screen 
@@ -38,7 +37,6 @@ a[href]:link {
     body
     {
       width: 915px;
-      height: 100%;
       padding-top: 10px;
       padding-bottom: 10px;
       padding-right: 10px;
@@ -72,3 +70,5 @@ a[href]:link {
     color: #28666e;
   }
 
+
+  
