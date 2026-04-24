@@ -25,6 +25,7 @@ a[href]:link {
     margin:0px auto;
     text-align: justify;
     min-height: 100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   }
   
   @media screen 
