@@ -30,12 +30,11 @@ a[href]:link {
   
   @media screen 
   {
-    html
-    {
-      background-image: url('assets/futurebistro.png');
-      background-size: cover; 
-      /*background-color: #c6f3e4;*/
-    }
+   html
+{
+  background-image: linear-gradient(rgba(198, 243, 228, 0.7), rgba(198, 243, 228, 0.7)), url('assets/futurebistro.png');
+  background-size: cover;
+} 
     body
     {
       width: 915px;
