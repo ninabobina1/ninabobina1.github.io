@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Photo Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 24px 16px;
+      text-align: center;
+    }
+    main {
+      max-width: 960px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    }
+    .card img {
+      width: 100%;
+      display: block;
+    }
+    .caption {
+      padding: 14px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Photo Blog</h1>
+    <p>Simple moments captured in images</p>
+  </header>
+  <main>
+    <section class="gallery">
+      <article class="card">
+        <img src="https://via.placeholder.com/600x400?text=Nature" alt="Nature scene" />
+        <div class="caption">A calm walk through the forest.</div>
+      </article>
+      <article class="card">
+        <img src="https://via.placeholder.com/600x400?text=City" alt="City scene" />
+        <div class="caption">City lights and quiet evenings.</div>
+      </article>
+      <article class="card">
+        <img src="https://via.placeholder.com/600x400?text=Food" alt="Food" />
+        <div class="caption">A simple meal shared with friends.</div>
+      </article>
+      <article class="card">
+        <img src="https://via.placeholder.com/600x400?text=Travel" alt="Travel" />
+        <div class="caption">New places and new perspectives.</div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
